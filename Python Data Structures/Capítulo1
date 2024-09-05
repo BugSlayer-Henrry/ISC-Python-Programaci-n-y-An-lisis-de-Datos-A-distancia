@@ -1,0 +1,67 @@
+fhand = open('mbox.txt')
+x = 0
+for line in fhand:
+    x = x + 1
+print(x)
+
+#--------------------
+# Use words.txt as the file name
+fname = input("Enter file name: ")
+
+with open(fname, 'r') as fh:
+    content = fh.read()
+
+content_upper = content.upper()
+
+print(content_upper.strip())
+
+#-----------------------
+#7.2 Escriba un programa que solicite un 
+# nombre de archivo y luego abra ese archivo 
+# y lee el archivo, buscando líneas del formulario:
+#  Cuente estas líneas y extraiga los valores de punto 
+# flotante de cada una de las líneas y calcular el promedio 
+# de esos valores y producir una salida como se muestra a 
+# continuación. No utilice la función sum() ni una variable 
+# denominada sum en la solución.
+#X-DSPAM-Confidence:    0.8475
+#Puede descargar los datos de muestra en
+#  http://www.py4e.com/code3/mbox-short.txt cuando esté 
+# realizando la prueba A continuación, introduzca mbox-short.txt 
+# como nombre de archivo.
+# Use the file name mbox-short.txt as the file name
+fname = input("Enter file name: ")
+fh = open(fname)
+
+count = 0
+total = 0.0
+
+for line in fh:
+    if not line.startswith("X-DSPAM-Confidence:"):
+        continue
+    
+    parts = line.split()
+    value = float(parts[1])
+    
+    total += value
+    count += 1
+
+if count > 0:
+    average = total / count
+else:
+    average = 0
+
+print(f"Average spam confidence: {average:.16f}")
+
+
+
+
+
+
+
+
+
+
+
+
+
