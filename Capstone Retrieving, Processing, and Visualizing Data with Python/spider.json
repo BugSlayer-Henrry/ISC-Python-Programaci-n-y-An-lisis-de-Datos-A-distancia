@@ -1,0 +1,404 @@
+{
+    "pages": [
+        {
+            "url": "https://www.reniec.gob.pe/portal/Principal.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/intro.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/faqFrecuentes.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/homeContacto.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/mapaWeb.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/detalleNota.htm?nota=00001713",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/detalleNota.htm?nota=00001712",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/detalleNota.htm?nota=00001711",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/salaPrensa.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/institucional.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/acercaDni.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/registroCivil.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://portales.reniec.gob.pe/web/electorales/inicio",
+            "retrieved": true
+        },
+        {
+            "url": "https://portales.reniec.gob.pe/web/identidaddigital/principalpki",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/peruanosExtranjero.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/html/carta-servicios/html/principal-cservicios.jsp",
+            "retrieved": true
+        },
+        {
+            "url": "http://blogs.reniec.gob.pe/blogRENIEC/identidad/",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/aloReniec.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/wai/",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/tramiteGeneral.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/html/agencia/subastas.html",
+            "retrieved": true
+        },
+        {
+            "url": "https://appscgr.contraloria.gob.pe/sinad/Nuevo",
+            "retrieved": true
+        },
+        {
+            "url": "https://postulaconlatuya.contraloria.gob.pe",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/pdf/BASES_ADMINISTRATIVAS_6_VEHICULOS.pdf",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/pdf/cartilla-final-A5-pcd.pdf",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/pdf/SR-03-RG-03-GAD-RENIEC.pdf",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/pdf/CARTILLA-GFI-2019.pdf",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/pdf/infograma-documentacion-pam-2.pdf",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/html/agencia/bienesRAEE.html",
+            "retrieved": true
+        },
+        {
+            "url": "http://www.reniec.gob.pe/Transparencia/TransparenciaAdm?id=057&codigo=011289&pdf=FRVIB-2021.pdf&valorMenu=23",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/pdf/PROTOCOLO_ATENCION_USUARIO.pdf",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/pdf/directriz-atencion-denuncias-ciudadanas-sistema-nacional-control.pdf",
+            "retrieved": true
+        },
+        {
+            "url": "http://centroderecursos.cultura.pe/",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/pdf/registro-militar.pdf",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/pdf/seguridad-vecinal.pdf",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/pdf/ecoeficiencia-2012.pdf",
+            "retrieved": true
+        },
+        {
+            "url": "http://www.mac.pe/mac-lima-norte-2/",
+            "retrieved": true
+        },
+        {
+            "url": "http://www.sbs.gob.pe/prevencion-de-lavado-activos",
+            "retrieved": true
+        },
+        {
+            "url": "http://transparencia-economica.mef.gob.pe/",
+            "retrieved": true
+        },
+        {
+            "url": "http://spij.minjus.gob.pe/",
+            "retrieved": true
+        },
+        {
+            "url": "http://apps.contraloria.gob.pe/unetealcontrol/index.html",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/masServiciosLinea.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/homeInicioag.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://portales.reniec.gob.pe/web/estadistica/regCiviles",
+            "retrieved": true
+        },
+        {
+            "url": "https://portales.reniec.gob.pe/web/estadistica/identificada",
+            "retrieved": true
+        },
+        {
+            "url": "https://portales.reniec.gob.pe/web/estadistica/pelectoral",
+            "retrieved": true
+        },
+        {
+            "url": "https://portales.reniec.gob.pe/web/estadistica/indicador",
+            "retrieved": true
+        },
+        {
+            "url": "https://portales.reniec.gob.pe/web/estadistica/inicio",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/capacitacionCaer.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/capacitacionCronograma.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/capacitacionPrincipal.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.youtube.com/playlist?list=PLJw7-YDnN6LqbEqV_PzztuJ4g8OzOna3H",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/museo.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://portales.reniec.gob.pe/web/sci/inicio",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/html/serviciosLinea/acceso-lrv.html",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/avisolegal.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/creditosreniec.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/sedesreniec.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/intro.htm#main",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/",
+            "retrieved": true
+        },
+        {
+            "url": "https://denuncias.servicios.gob.pe/?gobpe_id=17",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.gob.pe/20416-acceder-a-mesa-de-partes?child=12391",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.gob.pe/23649-consultar-estado-de-tramite?child=24099",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.gob.pe/13376-registro-nacional-de-identificacion-y-estado-civil-solicitar-acceso-a-la-informacion-publica-del-reniec",
+            "retrieved": true
+        },
+        {
+            "url": "https://apps.reniec.gob.pe/postulaReniec/empleo",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.gob.pe/235-documento-nacional-de-identidad-dni",
+            "retrieved": true
+        },
+        {
+            "url": "https://serviciosportal.reniec.gob.pe/cetdnipi/inicio.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://apps.reniec.gob.pe/certins",
+            "retrieved": true
+        },
+        {
+            "url": "https://apps.reniec.gob.pe/actascertificadas",
+            "retrieved": true
+        },
+        {
+            "url": "https://apps.reniec.gob.pe/MesaPartesVirtual/",
+            "retrieved": true
+        },
+        {
+            "url": "https://facebook.com/RENIECPERU",
+            "retrieved": true
+        },
+        {
+            "url": "https://instagram.com/reniec_oficial",
+            "retrieved": true
+        },
+        {
+            "url": "https://youtube.com/@Reniec-xs7of",
+            "retrieved": true
+        },
+        {
+            "url": "https://flickr.com/photos/131149135@N04/albums",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.tiktok.com/@reniecoficial?lang=es",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.gob.pe/institucion/reniec/informes-publicaciones/1736727-horarios-y-oficinas",
+            "retrieved": true
+        },
+        {
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLSd3YwULZgXrg4H5ofi7GAkFkWnKSlugxhiYRKOLY1SoBvDmAg/viewform?usp=sf_link",
+            "retrieved": true
+        },
+        {
+            "url": "https://portalrcm.reniec.gob.pe/sutichay",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.gob.pe/institucion/reniec/informes-publicaciones/2934484-guia-para-la-documentacion-de-personas-con-discapacidad",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.gob.pe/ue002-reniec",
+            "retrieved": true
+        },
+        {
+            "url": "https://serviciosportal.reniec.gob.pe/portalciudadano/",
+            "retrieved": true
+        },
+        {
+            "url": "https://serviciosweb.reniec.gob.pe/aip/",
+            "retrieved": true
+        },
+        {
+            "url": "https://sisweb.reniec.gob.pe/PortalRegCivil/login.htm",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/html/registro-civil-bilingue/html/principal-rcb.jsp#:~:text=La%20trascendencia%20del%20Registro%20Civil,y%20que%20ellos%20reciben%20una",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.gob.pe/1021-que-es-gob-pe",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.gob.pe/institucion/pcm/informes-publicaciones/698037-politica-de-privacidad-de-gob-pe",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.facebook.com/PeruPaisDigital/",
+            "retrieved": true
+        },
+        {
+            "url": "https://m.me/RENIECPERU",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/images/salaPrensa/noticias/notaprensa/chiclayo2.jpg",
+            "retrieved": true
+        },
+        {
+            "url": "http://www.reniec.gob.pe/",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/images/salaPrensa/noticias/notaprensa/np.jpg",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/images/salaPrensa/noticias/notaprensa/1234.jpg",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/detalleNota.htm?nota=00001710",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/detalleNota.htm?nota=00001709",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/salaPrensa.htm?pg=2",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.gob.pe/institucion/reniec/campa%C3%B1as/7665-premios-y-reconocimientos-del-reniec",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/html/institucional/alineacion-gestion.pdf",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/html/institucional/POLITICA-SEGURIDAD.pdf",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/html/institucional/POLITICA-SEGURIDAD-AIMARA.pdf",
+            "retrieved": true
+        },
+        {
+            "url": "https://www.reniec.gob.pe/portal/html/institucional/POLITICA-SEGURIDAD-AWAJUN.pdf",
+            "retrieved": true
+        }
+    ]
+}

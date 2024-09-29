@@ -1,10 +1,11 @@
-import sqlite3
+import sqlite3 
 import urllib.request
 import urllib.parse
 import ssl
 from bs4 import BeautifulSoup
 import re
 import os
+import json  # Importar el módulo JSON
 
 # Ruta del archivo de la base de datos
 db_path = r'C:\Users\winsl\OneDrive\Escritorio\ISC-Python-Programaci-n-y-An-lisis-de-Datos-A-distancia\Capstone Retrieving, Processing, and Visualizing Data with Python\spider.sqlite'
@@ -25,13 +26,11 @@ conn = sqlite3.connect(db_path)
 cur = conn.cursor()
 
 # Crear tabla si no existe
-cur.execute('''
-CREATE TABLE IF NOT EXISTS Pages (
+cur.execute('''CREATE TABLE IF NOT EXISTS Pages (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     url TEXT UNIQUE,
     retrieved INTEGER
-)
-''')
+)''')
 
 # Ignorar errores de certificados SSL
 ctx = ssl.create_default_context()
@@ -101,6 +100,27 @@ def valid_link(link):
     row = cur.fetchone()
     return row is None
 
+def generate_json(db_path):
+    """
+    Genera un archivo JSON con las URLs y su estado de recuperación en la misma ruta que spider.sqlite.
+    """
+    cur.execute('SELECT url, retrieved FROM Pages')
+    rows = cur.fetchall()
+    
+    data = []
+    for url, retrieved in rows:
+        data.append({
+            'url': url,
+            'retrieved': bool(retrieved)  # Convertir a booleano
+        })
+
+    # Generar la ruta para el archivo JSON en la misma carpeta que spider.sqlite
+    json_path = os.path.join(os.path.dirname(db_path), 'spider.json')
+
+    with open(json_path, 'w', encoding='utf-8') as json_file:
+        json.dump({'pages': data}, json_file, ensure_ascii=False, indent=4)
+    print(f"Archivo JSON generado con éxito: {json_path}")
+
 # Iniciar el proceso de crawling
 start_url = input("Enter URL: ")  # Pedir la URL de inicio
 if len(start_url) < 1:
@@ -129,6 +149,9 @@ while True:
     new_links = get_links(next_url)
     new_links = [link for link in new_links if valid_link(link)]
     valid_links_list.extend(new_links)
+
+# Generar el archivo JSON después de completar el crawling
+generate_json(db_path)
 
 # Cerrar la conexión a la base de datos
 cur.close()

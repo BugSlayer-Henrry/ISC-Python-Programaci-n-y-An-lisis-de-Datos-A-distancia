@@ -1,56 +1,52 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="es">
+<head>
     <meta charset="UTF-8">
-    <title>Visualización de PageRank</title>
-    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
-  </head>
-  <body>
-    <h1>Visualización de PageRank</h1>
-    <script type="text/javascript">
-      var width = 960, height = 500;
-      var force = d3.layout.force()
-          .size([width, height])
-          .linkDistance(50)
-          .charge(-200);
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25 nodos</title>
+    <script>
+        // Función para cargar el archivo JSON y mostrar 25 URLs aleatorias
+        async function loadRandomUrls() {
+            try {
+                const response = await fetch('spider.json');
+                const data = await response.json();
+                
+                const urlList = document.getElementById('url-list');
 
-      var svg = d3.select("body").append("svg")
-          .attr("width", width)
-          .attr("height", height);
+                // Seleccionar 25 URLs aleatorias
+                const randomUrls = getRandomUrls(data.pages, 25);
 
-      d3.json("spider.json", function(error, graph) {
-        if (error) throw error;
+                randomUrls.forEach((page, index) => {
+                    const listItem = document.createElement('li');
+                    const anchor = document.createElement('a');
+                    anchor.href = page.url;
+                    anchor.textContent = `${index + 1}: ${page.url}`; // Enumerar las URLs
+                    anchor.target = '_blank'; // Abrir en nueva pestaña
+                    listItem.appendChild(anchor);
+                    urlList.appendChild(listItem);
+                });
+            } catch (error) {
+                console.error('Error al cargar el archivo JSON:', error);
+            }
+        }
 
-        force.nodes(graph.nodes)
-            .links(graph.links)
-            .start();
+        // Función para obtener N URLs aleatorias de la lista de páginas
+        function getRandomUrls(pages, count) {
+            const shuffled = pages.sort(() => 0.5 - Math.random()); // Mezcla las páginas
+            return shuffled.slice(0, count); // Toma las primeras N
+        }
 
-        var link = svg.selectAll(".link")
-            .data(graph.links)
-          .enter().append("line")
-            .attr("class", "link")
-            .style("stroke-width", function(d) { return Math.sqrt(d.value); });
-
-        var node = svg.selectAll(".node")
-            .data(graph.nodes)
-          .enter().append("circle")
-            .attr("class", "node")
-            .attr("r", 5)
-            .call(force.drag);
-
-        node.append("title")
-            .text(function(d) { return d.name; });
-
-        force.on("tick", function() {
-          link.attr("x1", function(d) { return d.source.x; })
-              .attr("y1", function(d) { return d.source.y; })
-              .attr("x2", function(d) { return d.target.x; })
-              .attr("y2", function(d) { return d.target.y; });
-
-          node.attr("cx", function(d) { return d.x; })
-              .attr("cy", function(d) { return d.y; });
-        });
-      });
+        // Cargar las URLs cuando el documento esté listo
+        document.addEventListener('DOMContentLoaded', loadRandomUrls);
     </script>
-  </body>
+</head>
+<body>
+    <h1>URL de inicio: https://www.reniec.gob.pe/portal/Principal.htm</h1>
+    <br> <!-- Espacio en blanco -->
+    <h2>Lista de 25 nodos : </h2>
+    <ul id="url-list">
+        <!-- Las URLs se insertarán aquí -->
+    </ul>
+</body>
 </html>
+<!-- Fin del archivo HTML  creado por Henrry Bolaños Rodriguez-->
